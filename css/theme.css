@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #4999F7;
+  --color-primary-light: #54C8DB;
+  --color-secondary: #333;
+  --color-neutral: #cecece;
+
+  --font-primary: "Overpass", sans-serif;
+  --font-secondary: "Bebas Neue", cursive;
+}
+
+html {
+  font-family: var(--font-primary)
+}
