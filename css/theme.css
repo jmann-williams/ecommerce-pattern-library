@@ -1,7 +1,8 @@
 :root {
-  --color-primary: #4999F7;
-  --color-primary-light: #54C8DB;
-  --color-secondary: #333;
+  --color-primary: #ef5189;
+  --color-primary-light: #FFAAC8;
+  --color-primary-dark: #BE395D;
+  --color-secondary: #4C96F7;
   --color-neutral: #cecece;
 
   --font-primary: "Overpass", sans-serif;
