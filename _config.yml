@@ -7,8 +7,8 @@ patternbot:
     Best Foot Forward is a large sock corporation that specializes in releasing people's creativity and wellness from within. There are many homeless Canadians and most of them have inadequate clothing. Together, we can help reduce this problem.
   font_url: "https://fonts.googleapis.com/css?family=Bebas+Neue|Overpass:400,700,900&display=swap"
   colors:
-    background: "#54C8DB"
-    accent: "#54C8DB"
+    background: "#fff"
+    accent: "#fff"
   rationales:
     typefaces.primary: |
       Overpass was selected because it is a modern font and easy to read. Overpass is to be used for all body copy.
