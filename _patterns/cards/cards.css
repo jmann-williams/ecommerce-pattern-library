@@ -1,0 +1,9 @@
+.socks {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  border-top: solid 3px var(--color-neutral);
+}
+
+.type {
+  color: var(--color-neutral);
+}
