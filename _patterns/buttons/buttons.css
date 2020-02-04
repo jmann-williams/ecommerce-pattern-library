@@ -17,7 +17,7 @@
 
 .btn-ghost {
   background-color: transparent;
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 
 .btn-ghost:hover {
@@ -28,9 +28,9 @@
 }
 
 .btn-light {
-  background-color: var(--color-primary-light);
-  color: #fff;
-  border: solid 2px var(--color-primary-light);
+  background-color: #fff;
+  color: var(--color-secondary);
+  border: solid 2px #fff;
   border-radius: 3px;
   font-family: var(--font-secondary);
 }
