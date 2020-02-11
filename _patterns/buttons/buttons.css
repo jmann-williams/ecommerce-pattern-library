@@ -31,7 +31,7 @@
   background-color: #fff;
   color: var(--color-secondary);
   border: solid 2px #fff;
-  border-radius: 3px;
+  border-radius: 2px;
   font-family: var(--font-secondary);
 }
 
@@ -39,7 +39,45 @@
   background-color: var(--color-secondary);
   color: #fff;
   border: solid 2px var(--color-secondary);
-  border-radius: 3px;
+  border-radius: 2px;
   font-family: var(--font-secondary);
   transition: ease-in-out .25s;
+}
+
+.card-shop-btn {
+  background-color: #fff;
+  color: var(--color-secondary);
+  border: solid 2px #fff;
+  border-radius: 2px;
+  font-family: var(--font-secondary);
+}
+
+.card-shop-btn {
+  background-color: #fff;
+  color: var(--color-secondary);
+  border: solid 1px #fff;
+  border-radius: 2px;
+  font-family: var(--font-secondary);
+}
+
+.card-shop-btn:hover {
+  color: var(--color-secondary);
+  border: solid 1px #fff;
+  background-color: rgba(256, 256, 256, 1);
+  box-shadow: 10px 10px 0 var(--color-secondary);
+  transition: ease-in-out .25s;
+ }
+
+.btn-link {
+  color: var(--color-neutral-2);
+  text-decoration: underline;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-link:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+  background-color: transparent;
+  border: none;
 }
