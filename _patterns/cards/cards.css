@@ -7,3 +7,12 @@
 .type {
   color: var(--color-neutral);
 }
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px rgba(47, 67, 110, .5);
+  color: #fcfcfc;
+}
