@@ -8,7 +8,7 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Bebas+Neue|Overpass:400,700,900&display=swap"
   colors:
     background: "#fff"
-    accent: "#fff"
+    accent: "--color-secondary"
   rationales:
     typefaces.primary: |
       Overpass was selected because it is a modern font and easy to read. Overpass is to be used for all body copy.
