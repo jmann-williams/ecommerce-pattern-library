@@ -29,16 +29,16 @@
 
 .btn-light {
   background-color: #fff;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   border: solid 2px #fff;
   border-radius: 2px;
   font-family: var(--font-secondary);
 }
 
 .btn-light:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: #fff;
-  border: solid 2px var(--color-secondary);
+  border: solid 2px var(--color-primary);
   border-radius: 2px;
   font-family: var(--font-secondary);
   transition: ease-in-out .25s;
@@ -46,25 +46,17 @@
 
 .card-shop-btn {
   background-color: #fff;
-  color: var(--color-secondary);
-  border: solid 2px #fff;
-  border-radius: 2px;
-  font-family: var(--font-secondary);
-}
-
-.card-shop-btn {
-  background-color: #fff;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   border: solid 1px #fff;
   border-radius: 2px;
   font-family: var(--font-secondary);
 }
 
 .card-shop-btn:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   border: solid 1px #fff;
   background-color: rgba(256, 256, 256, 1);
-  box-shadow: 10px 10px 0 var(--color-secondary);
+  box-shadow: 10px 10px 0 var(--color-primary);
   transition: ease-in-out .25s;
  }
 
@@ -76,7 +68,7 @@
 }
 
 .btn-link:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-decoration: underline;
   background-color: transparent;
   border: none;

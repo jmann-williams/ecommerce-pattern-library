@@ -8,13 +8,13 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Bebas+Neue|Overpass:400,700,900&display=swap"
   colors:
     background: "#fff"
-    accent: "--color-secondary"
+    accent: "--color-primary"
   rationales:
     typefaces.primary: |
       Overpass was selected because it is a modern font and easy to read. Overpass is to be used for all body copy.
     typefaces.secondary: |
       Bebas Neue is only to be used for highlighting text: headings, buttons, banners, etc.
     colors.primary: |
-      The primary color is to represent the warmness we are trying to bring to people.
+        The primary color is a blue to represent the coldness we are trying to prevent.
     colors.secondary: |
-      The secondary color is a blue to represent the coldness we are trying to prevent.
+      The secondary color is a pink to represent the warmness we are trying to bring to people.
