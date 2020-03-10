@@ -1,0 +1,80 @@
+.b-c-label,
+.b-c-separator {
+  color: var(--color-neutral-2);
+  text-decoration: none;
+  font-weight: normal;
+  font-family: var(--font-secondary);
+}
+
+.b-c-label:hover {
+  color: var(--color-neutral);
+  text-decoration: underline;
+  transition: ease-in-out .1s;
+}
+
+.current-page {
+  color: var(--color-neutral-2);
+  border-bottom: 0;
+  transform: translateY(-2px);
+}
+
+.current-page:hover {
+  color: var(--color-primary);
+  border-bottom: 0;
+  transform: translateY(-2px);
+}
+
+.n-p {
+  font-family: var(--font-primary);
+  color: var(--color-neutral);
+  text-decoration: none;
+}
+
+.n-p:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: ease-in-out .1s;
+}
+
+.page-link {
+  font-family: var(--font-primary);
+  color: var(--color-neutral);
+  text-decoration: none;
+}
+
+.box {
+  border: solid 2px var(--color-neutral);
+  padding: .8em;
+}
+
+.page-link:hover {
+  color: var(--color-primary);
+  border: solid 2px var(--color-primary);
+  text-decoration: underline;
+  transition: ease-in-out .1s;
+}
+
+.box-current {
+  color: var(--color-neutral-2);
+  border: solid 2px var(--color-neutral-2);
+  padding: .8em;
+  text-decoration: underline;
+}
+
+.box-current:hover {
+  color: var(--color-neutral);
+  border: solid 2px var(--color-neutral);
+  text-decoration: underline;
+  transition: ease-in-out .1s;
+}
+
+.bc-current {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.bc-current:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+  transition: ease-in-out .1s;
+}
