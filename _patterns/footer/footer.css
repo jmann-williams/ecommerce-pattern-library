@@ -1,0 +1,29 @@
+footer {
+  background-color: var(--color-neutral-2);
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+footer li {
+  font-family: var(--font-primary);
+  font-weight: 900;
+}
+
+.nav-link:hover {
+  color: var(--color-primary);
+  transition: ease-in-out .1s;
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: #fff;
+}
+
+.social-icons a:hover {
+  color: var(--color-primary);
+  transition: ease-in-out .1s;
+  text-decoration: underline;
+}
