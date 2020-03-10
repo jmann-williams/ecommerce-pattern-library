@@ -1,0 +1,44 @@
+.current {
+  border: none;
+}
+
+nav {
+  background-color: var(--color-neutral-2);
+}
+
+svg {
+  color: #fff;
+}
+
+nav .btn {
+  background-color: transparent;
+  border: solid 2px transparent;
+}
+
+nav .btn:hover {
+  background-color: #fff;
+  border: solid 2px #fff;
+  color: var(--color-neutral-2);
+}
+
+.current {
+  background-color: var(--color-primary);
+  border-radius: 2px;
+}
+.search-input {
+  background-color: transparent;
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: center left;
+  border: solid 2px #fff;
+  border-radius: 100px;
+}
+
+.btn-cart {
+  color: #fff;
+}
+
+.btn-cart:hover {
+  color: var(--color-neutral-2);
+}
