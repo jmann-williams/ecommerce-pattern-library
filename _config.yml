@@ -1,7 +1,10 @@
-perma: pretty
+permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
   title: "Best Foot Forward"
   description: |
     Best Foot Forward is a large sock corporation that specializes in releasing people's creativity and wellness from within. There are many homeless Canadians and most of them have inadequate clothing. Together, we can help reduce this problem.
