@@ -67,9 +67,19 @@
   border: none;
 }
 
-.btn-link:hover {
-  color: var(--color-primary);
-  text-decoration: underline;
-  background-color: transparent;
-  border: none;
+.btn-cart {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: solid 2px var(--color-primary);
+  border-radius: 3px;
+  font-family: var(--font-secondary);
+}
+
+.btn-cart:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+  border: solid 2px var(--color-secondary);
+  border-radius: 3px;
+  font-family: var(--font-secondary);
+  transition: ease-in-out .25s;
 }
