@@ -1,0 +1,7 @@
+.p-name {
+  font-family: var(--font-secondary);
+}
+
+.things li::before {
+  content: "•";
+}
