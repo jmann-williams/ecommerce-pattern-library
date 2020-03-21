@@ -1,0 +1,14 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "New Arrivals"
+        required: false
+      - name: text
+        type: string
+        example: "Placeholder text"
+        required: false
+      - name: heading-2
+        type: string
+        example: "/products/"
