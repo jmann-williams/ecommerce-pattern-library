@@ -67,6 +67,13 @@
   border: none;
 }
 
+.btn-link:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+  background-color: transparent;
+  border: none;
+}
+
 .btn-cart {
   background-color: var(--color-primary);
   color: #fff;
