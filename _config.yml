@@ -18,6 +18,16 @@ patternbot:
     typefaces.secondary: |
       Bebas Neue is only to be used for highlighting text: headings, buttons, banners, etc.
     colors.primary: |
-        The primary color is a blue to represent the coldness we are trying to prevent.
+      The primary color is a blue to represent the coldness we are trying to prevent.
     colors.secondary: |
-      The secondary color is a pink to represent the warmness we are trying to bring to people.
+      The secondary color is an orange to represent the warmth we are trying to bring to people.
+
+  collections:
+    products:
+      output: true
+
+  defaults:
+    - scope:
+        path: _products
+      values:
+        layout: product
