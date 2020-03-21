@@ -1,0 +1,26 @@
+h1 {
+  font-family: var(--font-secondary);
+}
+
+.container {
+  top: 50%;
+  max-height: 45em;
+  overflow: hidden;
+  bottom: 50%;
+}
+
+.container-2 {
+  top: 50%;
+  max-height: 20em;
+  overflow: hidden;
+  bottom: 50%;
+}
+
+.banner-content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px rgba(47, 67, 110, 1);
+  color: #fcfcfc;
+}
