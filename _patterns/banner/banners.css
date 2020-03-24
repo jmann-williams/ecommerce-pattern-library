@@ -7,6 +7,7 @@ h1 {
   max-height: 45em;
   overflow: hidden;
   bottom: 50%;
+  margin-top: 115px;
 }
 
 .container-2 {
@@ -14,6 +15,7 @@ h1 {
   max-height: 20em;
   overflow: hidden;
   bottom: 50%;
+  margin-top: 113px;
 }
 
 .banner-content {
@@ -23,4 +25,52 @@ h1 {
   transform: translate(-50%, -50%);
   text-shadow: 0 0 20px rgba(47, 67, 110, 1);
   color: #fcfcfc;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .container {
+    margin-top: 106.37px;
+  }
+
+  .container-2 {
+    margin-top: 106.37px;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .container {
+    margin-top: 106.5px;
+  }
+
+  .container-2 {
+    margin-top: 106.5px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .container {
+    margin-top: 115.19px;
+  }
+
+  .container-2 {
+    margin-top: 115.19px;
+  }
+
+}
+
+@media only screen and (min-width: 60) {
+
+  .container {
+    margin-top: 78px;
+  }
+
+  .container-2 {
+    margin-top: 78px;
+  }
+
 }
