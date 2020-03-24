@@ -4,6 +4,7 @@
 
 nav {
   background-color: var(--color-neutral-2);
+  z-index: 999;
 }
 
 svg {
