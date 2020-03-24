@@ -1,8 +1,9 @@
 <div class="card">
-  <img class="img-flex push" src="/images/socks/swirl.jpg" alt="">
+  <img class="img-flex push" src="{{include.data.image}}" alt="">
   <div class="relative socks">
-    <h2 class="pad-t-1-2 push-0">Swirl</h2>
-    <p class="pin-rc pad-t-1-2 type tera">Casual</p>
+    <h2 class="pad-t-1-2 push-0 pad-b-2">{{include.data.title}}</h2>
+    <p class="pin-rc type milli">{{include.data.description}}</p>
+    {% pattern buttons/basic text="Shop Now" url=include.data.url%}
   </div>
-  <h3 class="mega">$9.99</h3>
+  <strong class="mega">${{include.data.price}}</strong>
 </div>
