@@ -8,11 +8,3 @@ highlight_nav: shop
 {% for product in site.products %}
   {% pattern cards/product-card data=product %}
 {% endfor %}
-
-<div class="grid gutter-1-4">
-  {% for cactus-jack in site.products %}
-    <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
-      {% pattern cards/product-card data=product %}
-    </div>
-  {% endfor %}
-</div>
