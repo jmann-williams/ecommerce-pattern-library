@@ -55,9 +55,9 @@
 .card-shop-btn:hover {
   color: var(--color-primary);
   border: solid 1px #fff;
-  background-color: rgba(256, 256, 256, 1);
+  background-color: #fff;
   box-shadow: 10px 10px 0 var(--color-primary);
-  transition: ease-in-out .25s;
+  transition: ease-in-out .2s;
  }
 
 .btn-link {
