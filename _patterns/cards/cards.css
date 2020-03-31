@@ -24,3 +24,11 @@
   bottom: 50%;
   position: relative;
 }
+
+.card strong {
+  font-family: var(--font-secondary);
+}
+
+.desc {
+  font-family: var(--font-primary);
+}
