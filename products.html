@@ -5,6 +5,32 @@ highlight_nav: shop
 
 {% pattern banner/secondary-banner heading-2="Shop All" %}
 
-{% for product in site.products %}
-  {% pattern cards/product-card data=product %}
-{% endfor %}
+<div class="gutter-2 pad-t">
+
+  <h2 class="push-0 pad-t-2 island-1-4 exa">Featured Products</h2>
+
+  <div class="grid gutter-1-4">
+    {% assign random_products=site.products|sample:4 %}
+    {% for product in random_products %}
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
+        {% pattern cards/product-card data=product %}
+      </div>
+    {% endfor %}
+    <div class="unit push">
+      {% pattern buttons/btn-link %}
+    </div>
+  </div>
+
+  <h2 class="push-0 pad-t-2 island-1-4 exa">New Arrivals</h2>
+  <div class="grid gutter-1-4">
+    {% assign random_products=site.products|sample:4 %}
+    {% for product in random_products %}
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
+        {% pattern cards/product-card data=product %}
+      </div>
+    {% endfor %}
+    <div class="unit push">
+      {% pattern buttons/btn-link %}
+    </div>
+  </div>
+</div>
