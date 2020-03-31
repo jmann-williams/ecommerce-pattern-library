@@ -2,9 +2,9 @@
 
 product: "Cactus Jack"
 description: |
-  Show off this classic look in all the comforts of combed cotton, a timeless number that's ready to become a staple in your every day wardrobe rotation.
+  SClassic look in all the comforts of combed cotton, a timeless number that's ready to become a staple in your every day wardrobe rotation.
 image: "/images/socks/cactus-jack.jpg"
-cost: 10
+cost: 9.99
 colors:
   - "Green"
 style: "Casual"

@@ -4,7 +4,7 @@ product: "The Staple"
 description: |
   Show off this classic look in all the comforts of combed cotton, a timeless number that's ready to become a staple in your every day wardrobe rotation.
 image: "/images/socks/staple.jpg"
-cost: 10
+cost: 9.99
 colors:
   - "Orange"
   - "Black On White"
