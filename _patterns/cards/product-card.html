@@ -4,11 +4,11 @@
     <div class="">
       <h2 class="pad-t-1-2 push-0">{{include.data.title}}</h2>
     </div>
-    <div class="push-0 push-1-4">
+    <div>
+      <strong class="p-cost">${{include.data.cost}}</strong>
+    </div>
+    <div class="push-0 push-1-4 pad-t-1-2">
       {% pattern buttons/basic text="Shop Now" url=include.data.url%}
     </div>
-  </div>
-  <div>
-    <strong>${{include.data.cost}}</strong>
   </div>
 </div>
