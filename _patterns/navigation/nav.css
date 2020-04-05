@@ -62,8 +62,8 @@
 }
 
 .box-current:hover {
-  color: var(--color-neutral);
-  border: solid 2px var(--color-neutral);
+  color: var(--color-primary);
+  border: solid 2px var(--color-primary);
   text-decoration: underline;
   transition: ease-in-out .1s;
 }
