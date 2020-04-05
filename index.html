@@ -6,8 +6,8 @@ highlight_nav: home
 {% pattern banner/banner heading="New Arrivals" text="This is just some placeholder text,<br>which will be replaced!" %}
 
 <div class="gutter-2 pad-t">
-  <h2 class="push-0 pad-t-2 island-1-4 exa">Featured Products</h2>
-  <div class="grid gutter-1-4">
+  <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">Featured Products</h2>
+  <div class="grid gutter-2">
     {% assign random_products=site.products|sample:4 %}
     {% for product in random_products %}
       <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
@@ -20,8 +20,8 @@ highlight_nav: home
   </div>
 
 
-  <h2 class="push-0 pad-t-2 island-1-4 exa">New Arrivals</h2>
-  <div class="grid gutter-1-4">
+  <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">New Arrivals</h2>
+  <div class="grid gutter-2">
     {% assign random_products=site.products|sample:4 %}
     {% for product in random_products %}
       <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
@@ -35,25 +35,25 @@ highlight_nav: home
 
   <h2 class="push-0 pad-t-2 island gutter-2 exa">Shop</h2>
 
-  <div class="grid gutter-2 pad-b-2 ">
+  <div class="grid gutter-2 pad-b">
     <div class="unit s-1 m-1-2 l-2">
       <div class="island-1-4">
-        {% pattern cards/category-card image="images/socks/mens.jpg" %}
+        {% pattern cards/category-card image="/images/mens.jpg" %}
       </div>
     </div>
     <div class="unit s-1 m-1-2 l-2">
       <div class="island-1-4">
-        {% pattern cards/category-card image="images/socks/mens.jpg" %}
+        {% pattern cards/category-card image="/images/womens.jpg" %}
       </div>
     </div>
     <div class="unit s-1 m-1-2 l-2">
       <div class="island-1-4">
-        {% pattern cards/category-card image="images/socks/mens.jpg" %}
+        {% pattern cards/category-card image="/images/kids.jpg" %}
       </div>
     </div>
     <div class="unit s-1 m-1-2 l-2">
       <div class="island-1-4">
-        {% pattern cards/category-card image="images/socks/mens.jpg" %}
+        {% pattern cards/category-card image="/images/bestsellers.jpg" %}
       </div>
     </div>
   </div>
@@ -63,22 +63,22 @@ highlight_nav: home
   <div class="grid gutter-2 pad-b-2 ">
     <div class="unit s-1 m-1-4 l-4">
       <div class="island-1-4">
-        {% pattern cards/collections-card image="images/socks/summer.jpg" %}
+        {% pattern cards/collections-card title="Athletic" image="/images/athletic.jpg" %}
       </div>
     </div>
     <div class="unit s-1 m-1-4 l-4">
       <div class="island-1-4">
-        {% pattern cards/collections-card image="images/socks/summer.jpg" %}
+        {% pattern cards/collections-card title="Delish" image="/images/breakfast.jpg" %}
       </div>
     </div>
     <div class="unit s-1 m-1-4 l-4">
       <div class="island-1-4">
-        {% pattern cards/collections-card image="images/socks/summer.jpg" %}
+        {% pattern cards/collections-card title="Pattern" image="/images/pattern.jpg" %}
       </div>
     </div>
     <div class="unit s-1 m-1-4 l-4">
       <div class="island-1-4">
-        {% pattern cards/collections-card image="images/socks/summer.jpg" %}
+        {% pattern cards/collections-card title="Summer" image="/images/summer.jpg" %}
       </div>
     </div>
   </div>
