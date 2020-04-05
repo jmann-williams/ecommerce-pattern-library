@@ -32,3 +32,24 @@
 .desc {
   font-family: var(--font-primary);
 }
+
+.p-cost {
+  color: var(--color-neutral);
+}
+
+a {
+  color: var(--color-neutral-2);
+  text-decoration: none;
+}
+
+.c-img:hover {
+  transition: all .2s linear;
+  transform: scale(1.26) rotate(5deg);
+  transition: ease-in-out .25s;
+}
+
+.c-img-card:hover {
+  transition: all .2s linear;
+  transform: scale(1.15);
+  transition: ease-in-out .25s;
+}

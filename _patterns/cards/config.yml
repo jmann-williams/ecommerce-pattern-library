@@ -9,3 +9,18 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+      - name: category
+        type: string
+        example: "Men's"
+        required: false
+      - name: desc
+        type: string
+        example: "Placeholder text"
+        required: false
+      - name: button-1
+        type: string
+        example: "/products/"
+      - name: collection
+        type: string
+        example: "Summer"
+        required: false
