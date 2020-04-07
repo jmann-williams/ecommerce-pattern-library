@@ -23,3 +23,14 @@ h1 {
 h2 {
   font-family: var(--font-secondary);
 }
+
+a {
+  font-family: var(--font-secondary);
+  color: var(--color-neutral-2);
+}
+
+mark {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-2);
+  background-color: var(--color-primary-light);
+}
