@@ -87,7 +87,7 @@
   border: none;
 }
 
-.btn-add-cart {
+.btn-bag {
   background-color: var(--color-primary);
   color: #fff;
   border: solid 2px var(--color-primary);
@@ -95,7 +95,7 @@
   font-family: var(--font-secondary);
 }
 
-.btn-add-cart:hover {
+.btn-bag:hover {
   background-color: var(--color-secondary);
   color: #fff;
   border: solid 2px var(--color-secondary);
