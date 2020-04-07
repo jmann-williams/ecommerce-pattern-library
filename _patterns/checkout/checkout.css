@@ -1,0 +1,40 @@
+.divider {
+  border-bottom: solid 2px var(--color-neutral);
+}
+
+caption {
+  font-family: var(--font-secondary);
+}
+
+.p-img {
+  width: 100%;
+}
+
+.f-s {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.f-s-2 {
+  background-color: transparent;
+  color: var(--color-neutral-2);
+  font-family: var(--font-secondary);
+}
+
+.f-s-2 svg{
+  color: var(--color-neutral-2);
+}
+
+.summary h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+.details {
+  font-family: var(--font-secondary);
+  color: var(--color-neutral-2);
+}
+
+.summary-details {
+  border-bottom: solid 1px var(--color-neutral);
+}
