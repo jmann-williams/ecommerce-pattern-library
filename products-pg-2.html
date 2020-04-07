@@ -1,0 +1,52 @@
+---
+layout: default
+highlight_nav: shop
+---
+
+{% pattern banner/secondary-banner heading-2="Shop" %}
+<div class="gutter-2 pad-t">
+
+  <div class="">
+    {% pattern navigation/breadcrumb-trail %}
+  </div>
+
+  <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">All</h2>
+  <div class="grid gutter-2">
+    {% assign random_products=site.products|sample:8 %}
+    {% for product in random_products %}
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
+        {% pattern cards/product-card data=product %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="pad-t-2">
+    {% pattern navigation/previous-page %}
+  </div>
+
+  <h2 class="push-0 pad-t-2 island gutter-2 exa">Collections</h2>
+
+  <div class="grid gutter-2 pad-b-2 ">
+    <div class="unit s-1 m-1-4 l-4">
+      <div class="island-1-4">
+        {% pattern cards/collections-card title="Athletic" image="/images/athletic.jpg" %}
+      </div>
+    </div>
+    <div class="unit s-1 m-1-4 l-4">
+      <div class="island-1-4">
+        {% pattern cards/collections-card title="Delish" image="/images/breakfast.jpg" %}
+      </div>
+    </div>
+    <div class="unit s-1 m-1-4 l-4">
+      <div class="island-1-4">
+        {% pattern cards/collections-card title="Pattern" image="/images/pattern.jpg" %}
+      </div>
+    </div>
+    <div class="unit s-1 m-1-4 l-4">
+      <div class="island-1-4">
+        {% pattern cards/collections-card title="Summer" image="/images/summer.jpg" %}
+      </div>
+    </div>
+  </div>
+
+</div>
