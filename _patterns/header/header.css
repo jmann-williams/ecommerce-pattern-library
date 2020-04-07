@@ -35,16 +35,14 @@ svg {
   background-position: center left;
   border: solid 2px #fff;
   border-radius: 100px;
-}
-
-.btn-cart {
+  text-indent: 1.7em;
   color: #fff;
 }
 
-.btn-cart:hover {
+.btn-bag {
+  color: #fff;
+}
+
+.btn-bag:hover {
   color: var(--color-neutral-2);
-}
-
-input {
-  color: #fff;
 }
