@@ -32,4 +32,10 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ---
 
+##Icon(s)
+
+• Shipping by Adrien Coquet from the Noun Project
+
+---
+
 © Jesse Mann-Williams 2020
