@@ -1,47 +1,42 @@
 <table class="push-0 wrapper">
   <caption class="push-0 pad-t-2 island-1-4 gutter-2 exa not-italic text-center">Shopping Bag</caption>
-  <thead>
+  <thead class="sub-total">
     <tr id="t-category" tabindex="0">
-      <th class="feature text-upper text-center" scope="col">Product</th>
-      <th class="storage text-upper text-center" scope="col">Price</th>
-      <th class="collab text-upper text-center" scope="col">QTY</th>
-      <th class="accounts text-upper text-center" scope="col">Subtotal</th>
-      <th class="network text-upper text-center" scope="col">Remove</th>
+      <th class="feature text-upper text-center title" scope="col">Product</th>
+      <th class="storage text-upper text-center title" scope="col"></th>
+      <th class="collab text-upper text-center title" scope="col">QTY</th>
+      <th class="accounts text-upper text-center title" scope="col">Subtotal</th>
+      <th class="network text-upper text-center title" scope="col">Remove</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="sub-total">
     <tr class="text-left" id="t-sc" tabindex="0">
-      <th scope="row" class="not-bold text-left"><img class="p-img text-center pad-t-1-2 push-1-2" src="/images/socks/swirl.jpg" alt="swirl"></th>
-      <td class="text-center valign-middle">$9.99</td>
-      <td class="text-center valign-middle">1</td>
-      <td class="text-center valign-middle">$9.99</td>
-      <td class="text-center valign-middle">{% pattern buttons/remove %}</td>
+      <th scope="row" class="not-bold text-left s-b"><img class="p-img text-center pad-t-1-2 push-1-2" src="/images/socks/swirl.jpg" alt="swirl"></th>
+      <td class="text-center valign-middle s-b">
+        <ul class="text-left w-1 pad-t list-group">
+          <li class="push-0 sub-total">Blue/Green</li>
+          <li class="push-0 sub-total">Large</li>
+          <li class="push-0 sub-total">$9.99</li>
+        </ul>
+      </td>
+      <td class="text-center valign-middle s-b">{% pattern checkout/quantity %}</td>
+      <td class="text-center valign-middle s-b">$9.99</td>
+      <td class="text-center valign-middle s-b">{% pattern buttons/remove %}</td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr class="text-left" id="ual" tabindex="0">
-      <th scope="row" class="not-bold text-left"><img class="p-img text-center pad-t-1-2 push-1-2" src="/images/socks/staple.jpg" alt="swirl"></th>
-      <td class="text-center valign-middle">$9.99</td>
-      <td class="text-center valign-middle">1</td>
-      <td class="text-center valign-middle">$9.99</td>
-      <td class="text-center valign-middle">{% pattern buttons/remove %}</td>
+  <tfoot class="sub-total">
+    <tr class="text-left" id="t-sc" tabindex="0">
+      <th scope="row" class="not-bold text-left s-b"><img class="p-img text-center pad-t-1-2 push-1-2" src="/images/socks/staple.jpg" alt="staple"></th>
+      <td class="text-center valign-middle s-b">
+        <ul class="text-left w-1 pad-t list-group">
+          <li class="push-0 sub-total">White/Blue</li>
+          <li class="push-0 sub-total">Medium</li>
+          <li class="push-0 sub-total">$9.99</li>
+        </ul>
+      </td>
+      <td class="text-center valign-middle s-b">{% pattern checkout/quantity %}</td>
+      <td class="text-center valign-middle s-b">$9.99</td>
+      <td class="text-center valign-middle s-b">{% pattern buttons/remove %}</td>
+    </tr>
   </tfoot>
 </table>
-
-<div class="grid right">
-  <div class="unit">
-    <div class="unit summary text-right">
-      <h3 class="pad-t push-0"></h3>
-      <dl class="list-group-inline">
-        <dt class="text-right summary-details details push-0 push-1-2">Subtotal</dt>
-        <dd class="summary-details push-0 push-1-2">$19.98</dd>
-        <dt class="text-right summary-details details push-0 push-1-2">Tax</dt>
-        <dd class="summary-details push-0 push-1-2">$2.59</dd>
-        <dt class="text-right summary-details details push-0 push-1-2">Shipping</dt>
-        <dd class="summary-details push-0 push-1-2">$0.00</dd>
-        <dt class="text-right details push-0 push-1-2">Total</dt>
-        <dd>$22.57</dd>
-      </dl>
-    </div>
-  </div>
-</div>
