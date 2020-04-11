@@ -10,37 +10,59 @@ highlight_nav: cart
     <span class="text-upper milli icon-label"><i class="icon i-32 gutter"><svg><use xlink:href="/images/icons.svg#shipping"></use></svg></i>Free Express Shipping On Orders Over $50</span>
   </div>
 
-  <div class="unit [ xs-1 s-1 m-1 l-1-2 ] gutter-2 pad-t">
+  <div class="unit [ xs-1 s-1 m-1 l-1 ] gutter-2 pad-t">
 
-    <div class="unit gutter-2 push-2">
+    <div class="unit [ xs-0 s-0 m-1 l-1 ] gutter-2 push-2">
       {% pattern checkout/summary %}
     </div>
 
+    <div class="unit [ xs-0 s-0 m-1 l-1 ] gutter-2 push-2">
+      {% pattern checkout/sub-total-list %}
+    </div>
+
+    <div class="unit w-1 f-s f-s-2 m-0 l-0 valign-middle island-1-4 text-center">
+      <span class="push-0 icon-label pad-t-2 island-1-4 exa text-center">Shopping Bag</span>
+    </div>
+
+    <div class="unit [ xs-1 s-1 m-0 l-0 ] push-2">
+      {% pattern checkout/mobile-summary %}
+    </div>
+
     <div class="unit w-1 f-s f-s-2 valign-middle island-1-4 text-center">
-      <span class="push-0 icon-label pad-t-2 island-1-4 gutter-2 exa text-center"><i class="icon i-64 gutter-2"><svg><use xlink:href="/images/icons.svg#shipping"></use></svg></i>Delivery</span>
+      <span class="push-0 icon-label pad-t-2 island-1-4 exa text-center"><i class="icon i-64 gutter-2"><svg><use xlink:href="/images/icons.svg#shipping"></use></svg></i>Delivery</span>
     </div>
 
     <div class="grid gutter-2">
-      <div class="unit island-1-4">
+      <div class="unit xs-0 s-0 m-1 l-1 island-1-4 gutter-2">
         {% pattern forms/shipping %}
       </div>
     </div>
 
-    <div class="divider push">
+    <div class="grid push">
+      <div class="unit xs-1 s-1 m-0 l-0 island-1-4">
+        {% pattern forms/shipping %}
+      </div>
+    </div>
+    <div class="divider push gutter-2">
       <span></span>
     </div>
 
     <div class="unit w-1 f-s f-s-2 valign-middle island-1-4 text-center">
-      <span class="push-0 icon-label pad-t-2 island-1-4 gutter-2 exa text-center"><i class="icon i-48 gutter-2"><svg><use xlink:href="/images/icons.svg#card"></use></svg></i>Payment Details</span>
+      <span class="push-0 icon-label pad-t-2 island-1-4 exa text-center"><i class="icon i-48 gutter-2"><svg><use xlink:href="/images/icons.svg#card"></use></svg></i>Payment</span>
     </div>
 
-    <div class="unit push-2 gutter-2">
-      <div class="island-1-4">
+    <div class="grid push gutter-2">
+      <div class="unit xs-0 s-0 m-1 l-1 island-1-4 gutter-2">
+        {% pattern forms/card-info %}
+      </div>
+    </div>
+
+    <div class="grid push-2">
+      <div class="unit xs-1 s-1 m-0 l-0 island-1-4">
         {% pattern forms/card-info %}
       </div>
     </div>
 
   </div>
-
 
 </div>
