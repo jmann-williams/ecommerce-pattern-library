@@ -35,6 +35,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 ##Icon(s)
 
 • Shipping by Adrien Coquet from the Noun Project
+• Trash by Amelia from the Noun Project
 
 ---
 
