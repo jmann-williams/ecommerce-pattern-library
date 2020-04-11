@@ -1,5 +1,5 @@
 .divider {
-  border-bottom: solid 2px var(--color-neutral);
+  border-bottom: solid 2px var(--color-neutral-3);
 }
 
 caption {
@@ -36,5 +36,47 @@ caption {
 }
 
 .summary-details {
-  border-bottom: solid 1px var(--color-neutral);
+  border-bottom: solid 1px var(--color-neutral-3);
+}
+
+.title {
+  margin-right: 2em;
+  margin-left: 2em;
+  border-bottom: solid 1px var(--color-neutral-3);
+}
+
+.m-r-btn {
+  border-radius: 0;
+}
+
+.m-c-t {
+  font-family: var(--font-secondary);
+}
+
+span .embed-16by9 {
+  padding-top: 0;
+}
+
+.sub-total {
+  color: var(--color-neutral-3);
+  font-family: var(--font-secondary);
+}
+
+.s-b {
+  color: var(--color-neutral-3);
+  border-bottom: solid 1px var(--color-neutral-3);
+}
+
+.qty-input {
+  width: 100%;
+  height: 100%;
+  border: solid 1px var(--color-neutral-3);
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+
+  }
+
 }
