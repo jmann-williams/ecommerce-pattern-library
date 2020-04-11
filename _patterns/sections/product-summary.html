@@ -1,4 +1,8 @@
-<div>
-  <h1 class="p-name zetta push-0">Product Name</h1>
-  <p class="p-desc milli wrapper">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
+<div class="unit xs-1 s-1 m-1 l-1">
+  <h1 class="p-name yotta push-0">{{page.product}}</h1>
+  <ul class="list-group-inline">
+    <li class="kilo p-cost">${{page.cost}}</li>
+    <li class="kilo p-cost gutter-2">{{page.style}}</li>
+  </ul>
+  <p class="p-desc milli max-length left">{{page.description}}</p
 </div>
