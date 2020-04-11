@@ -4,73 +4,72 @@ h1 {
 
 .container {
   top: 50%;
-  max-height: 45em;
   overflow: hidden;
   bottom: 50%;
-  margin-top: 7.188em;
-}
-
-.container-2 {
-  top: 50%;
-  max-height: 20em;
-  overflow: hidden;
-  bottom: 50%;
-  margin-top: 7.063em;
 }
 
 .banner-content {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 0 0 20px rgba(47, 67, 110, 1);
-  color: #fcfcfc;
+  text-shadow: 0 0 20px rgba(47, 67, 110, .5);
+  color: #fff;
 }
 
 @media only screen and (min-width: 20em) {
 
   .container {
-    margin-top: 106.37px;
+    margin-top: 60px;
   }
 
   .container-2 {
-    margin-top: 106.37px;
+    margin-top: 60px;
   }
 
 }
 
 @media only screen and (min-width: 25em) {
 
-  .container {
-    margin-top: 6.625em;
+  .banner-content h1 {
+    font-size: 3.3em;
   }
 
-  .container-2 {
-    margin-top: 6.625em;
+  .banner-content p {
+    font-size: 1em;
+    margin-bottom: .5em;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  .banner-content h1 {
+    font-size: 4em;
+  }
+
+  .banner-content p {
+    font-size: 1em;
+  }
+
   .container {
-    margin-top: 4em;
+    margin-top: 18px;
   }
 
   .container-2 {
-    margin-top: 4em;
+    margin-top: 18px;
   }
 
 }
 
 @media only screen and (min-width: 60) {
 
-  .container {
-    margin-top: 4em;
+  .banner-content h1 {
+    font-size: 6em;
   }
 
-  .container-2 {
-    margin-top: 4em;
+  .banner-content p {
+    font-size: 1em;
   }
 
 }
