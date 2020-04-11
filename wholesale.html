@@ -1,0 +1,25 @@
+---
+layout: default
+highlight_nav: shop
+---
+
+{% pattern banner/secondary-banner heading-2="Wholesale" %}
+
+<div>
+
+  <div class="unit w-1 f-s valign-middle island-1-4 text-center">
+    <span class="text-upper milli icon-label"><i class="icon i-32 gutter"><svg><use xlink:href="/images/icons.svg#shipping"></use></svg></i>Free Express Shipping On Orders Over $50</span>
+  </div>
+
+  <div class="grid gutter-2">
+    {% assign random_products=site.products|sample:2 %}
+    {% for product in random_products %}
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
+        {% pattern cards/product-card data=product %}
+      </div>
+    {% endfor %}
+  </div>
+
+  s
+
+</div>
