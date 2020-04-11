@@ -5,8 +5,9 @@
   --color-secondary: #fdc252;
   --color-secondary-light: #fff08a;
   --color-secondary-dark: #fb941a;
-  --color-neutral: #cecece;
+  --color-neutral: #8d8d8d;
   --color-neutral-2: #1e1e1e;
+  --color-neutral-3: #cecece;
 
   --font-primary: "Overpass", sans-serif;
   --font-secondary: "Bebas Neue", cursive;
@@ -16,11 +17,12 @@ html {
   font-family: var(--font-primary);
 }
 
-h1 {
-  font-family: var(--font-secondary);
-}
-
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-secondary);
 }
 
