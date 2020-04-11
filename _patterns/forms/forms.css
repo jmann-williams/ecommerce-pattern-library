@@ -1,7 +1,15 @@
 input {
-  border: solid 2px var(--color-neutral-2);
+  border: solid 1px var(--color-neutral-3);
 }
 
 select {
-  border: solid 2px var(--color-neutral-2);
+  border: solid 1px var(--color-neutral-3);
+}
+
+textarea {
+  border: solid 1px var(--color-neutral-3);
+}
+
+.question {
+  color: var(--color-neutral);
 }
