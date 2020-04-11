@@ -2,15 +2,14 @@
   background-color: var(--color-neutral-2);
   color: #fff;
   border: solid 2px var(--color-neutral-2);
-  border-radius: 3px;
   font-family: var(--font-secondary);
+  border-radius: 1px;
 }
 
 .btn:hover {
   background-color: var(--color-primary);
   color: #fff;
   border: solid 2px var(--color-primary);
-  border-radius: 3px;
   font-family: var(--font-secondary);
   transition: ease-in-out .2s;
 }
@@ -44,7 +43,6 @@
   background-color: #fff;
   color: var(--color-primary);
   border: solid 2px #fff;
-  border-radius: 2px;
   font-family: var(--font-secondary);
 }
 
@@ -52,7 +50,6 @@
   background-color: var(--color-primary);
   color: #fff;
   border: solid 2px var(--color-primary);
-  border-radius: 2px;
   font-family: var(--font-secondary);
   transition: ease-in-out .2s;
 }
@@ -61,7 +58,6 @@
   background-color: #fff;
   color: var(--color-primary);
   border: solid 1px #fff;
-  border-radius: 2px;
   font-family: var(--font-secondary);
 }
 
@@ -91,7 +87,6 @@
   background-color: var(--color-primary);
   color: #fff;
   border: solid 2px var(--color-primary);
-  border-radius: 3px;
   font-family: var(--font-secondary);
 }
 
@@ -99,7 +94,6 @@
   background-color: var(--color-secondary);
   color: #fff;
   border: solid 2px var(--color-secondary);
-  border-radius: 3px;
   font-family: var(--font-secondary);
   transition: ease-in-out .2s;
 }
