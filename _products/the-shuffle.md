@@ -2,17 +2,12 @@
 
 product: "The Shuffle"
 description: |
-  Show off this classic look in all the comforts of combed cotton, a timeless number that's ready to become a staple in your every day wardrobe rotation.
+  Nothing but fibrous superiority dedicated to bettering your best at whatever your athletic endeavor may be.
 image: "/images/socks/shuffle.jpg"
 cost: 9.99
 colors:
-  - "Orange"
-  - "Black On White"
-  - "White On Black"
-  - "Red"
-  - "Green"
-  - "Navy"
-  - "Light Blue"
+  - "Green / "
+  - "Tan"
 style: "Casual"
 material: "83% Combed Cotton, 8% Polyester, 7% Nylon, 2% Elastane"
 

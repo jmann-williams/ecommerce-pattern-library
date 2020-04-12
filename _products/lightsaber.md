@@ -6,7 +6,8 @@ description: |
 image: "/images/socks/lightsabers.jpg"
 cost: 9.99
 colors:
-  - "Purple"
+  - "Pink /"
+  - "Purple /"
   - "Blue"
 style: "Casual"
 material: "83% Combed Cotton, 8% Polyester, 7% Nylon, 2% Elastane"

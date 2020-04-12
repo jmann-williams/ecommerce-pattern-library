@@ -6,13 +6,10 @@ description: |
 image: "/images/socks/swirl.jpg"
 cost: 9.99
 colors:
-  - "Orange"
-  - "Black On White"
-  - "White On Black"
-  - "Red"
-  - "Green"
-  - "Navy"
-  - "Light Blue"
+  - "Black On White / "
+  - "White On Black  / "
+  - "Green On Blue  / "
+  - "Light Blue On White"
 style: "Casual"
 material: "83% Combed Cotton, 8% Polyester, 7% Nylon, 2% Elastane"
 
