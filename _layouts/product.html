@@ -1,14 +1,15 @@
 ---
 layout: default
+highlight_nav: shop
 ---
 
 <div>
 
-  <div class="grid pad-t-2">
+  <div class="grid pad-t-2 gutter-2">
     <div class=" unit pad-t-2 w-1">
       {% pattern navigation/breadcrumb-trail %}
     </div>
-    <div class="">
+    <div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
         <div class="grid">
           <div class="unit push-2 xs-1 s-1 m-1 l-1">
@@ -34,7 +35,7 @@ layout: default
                 {% pattern checkout/quantity %}
               </div>
             </div>
-            <div class="unit push-2 left xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push-2 pad-t left xs-1 s-1 m-1-2 l-1-2">
               <div class="push-0">
                 {% pattern buttons/basic text="Add" url="/cart/" %}
               </div>
@@ -48,29 +49,33 @@ layout: default
     </div>
   </div>
 
-  <h2 class="unit push-0 pad-t-2 gutter-2 exa">Recommended</h2>
+  <div class="w-1">
 
-  <div class="grid gutter-2 pad-b-2 w-1">
-    <div class="unit s-1-2 m-1-4 l-4">
-      <div class="island-1-4">
-        {% pattern cards/collections-card title="Athletic" image="/images/athletic.jpg" %}
+    <h2 class="unit push-0 pad-t-2 gutter-2 exa">Recommended</h2>
+
+    <div class="grid gutter-2 pad-b-2 w-1">
+      <div class="unit s-1-2 m-1-4 l-4">
+        <div class="island-1-4">
+          {% pattern cards/collections-card title="Athletic" image="/images/athletic.jpg" %}
+        </div>
+      </div>
+      <div class="unit s-1-2 m-1-4 l-4">
+        <div class="island-1-4">
+          {% pattern cards/collections-card title="Delish" image="/images/breakfast.jpg" %}
+        </div>
+      </div>
+      <div class="unit s-1-2 m-1-4 l-4">
+        <div class="island-1-4">
+          {% pattern cards/collections-card title="Pattern" image="/images/pattern.jpg" %}
+        </div>
+      </div>
+      <div class="unit s-1-2 m-1-4 l-4">
+        <div class="island-1-4">
+          {% pattern cards/collections-card title="Summer" image="/images/summer.jpg" %}
+        </div>
       </div>
     </div>
-    <div class="unit s-1-2 m-1-4 l-4">
-      <div class="island-1-4">
-        {% pattern cards/collections-card title="Delish" image="/images/breakfast.jpg" %}
-      </div>
-    </div>
-    <div class="unit s-1-2 m-1-4 l-4">
-      <div class="island-1-4">
-        {% pattern cards/collections-card title="Pattern" image="/images/pattern.jpg" %}
-      </div>
-    </div>
-    <div class="unit s-1-2 m-1-4 l-4">
-      <div class="island-1-4">
-        {% pattern cards/collections-card title="Summer" image="/images/summer.jpg" %}
-      </div>
-    </div>
+
   </div>
 
 </div>
