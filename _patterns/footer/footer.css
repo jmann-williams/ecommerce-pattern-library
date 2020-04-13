@@ -17,13 +17,3 @@ footer li {
   transition: ease-in-out .1s;
   text-decoration: underline;
 }
-
-.social-icons a {
-  color: #fff;
-}
-
-.social-icons a:hover {
-  color: var(--color-primary);
-  transition: ease-in-out .1s;
-  text-decoration: underline;
-}
