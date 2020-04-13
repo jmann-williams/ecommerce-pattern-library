@@ -7,12 +7,18 @@ highlight_nav: contact
 
 <div class="grid pad-t-2 push-2 unit-content-center">
 
-  <div class="unit question">
+  <div class="unit gutter-2 question">
     <p>Have a question or need some help? Send us a message below!</p>
   </div>
 
   <div class="grid gutter-2">
     <div class="unit xs-0 s-0 m-1 l-1 island-1-4 gutter-2">
+      {% pattern forms/contact-form %}
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-0 l-0 island-1-4 gutter-2">
       {% pattern forms/contact-form %}
     </div>
   </div>
