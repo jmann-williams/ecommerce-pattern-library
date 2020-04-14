@@ -36,6 +36,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 • Shipping by Adrien Coquet from the Noun Project
 • Trash by Amelia from the Noun Project
+• Sale by MHD AZMI DWIPRANATA from the Noun Project
 
 ---
 
