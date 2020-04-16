@@ -7,46 +7,50 @@ highlight_nav: shop
 
 <div class="pad-t">
 
-  <div class="">
+  <div>
     {% pattern navigation/breadcrumb-trail %}
   </div>
 
-  <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">Featured Products</h2>
+  <article>
+    <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">Featured Products</h2>
 
-  <div class="grid gutter-2">
-    {% assign random_products=site.products|sample:4 %}
-    {% for product in random_products %}
-      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
-        {% pattern cards/product-card data=product %}
+    <div class="grid gutter-2">
+      {% assign random_products=site.products|sample:4 %}
+      {% for product in random_products %}
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
+          {% pattern cards/product-card data=product %}
+        </div>
+      {% endfor %}
+      <div class="unit push">
+        {% pattern buttons/btn-link %}
       </div>
-    {% endfor %}
-    <div class="unit push">
-      {% pattern buttons/btn-link %}
     </div>
-  </div>
+  </article>
 
-  <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">New Arrivals</h2>
-  <div class="grid gutter-2">
-    {% assign random_products=site.products|sample:4 %}
-    {% for product in random_products %}
-      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
-        {% pattern cards/product-card data=product %}
+  <article>
+    <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">New Arrivals</h2>
+    <div class="grid gutter-2">
+      {% assign random_products=site.products|sample:4 %}
+      {% for product in random_products %}
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
+          {% pattern cards/product-card data=product %}
+        </div>
+      {% endfor %}
+      <div class="unit push">
+        {% pattern buttons/btn-link %}
       </div>
-    {% endfor %}
-    <div class="unit push">
-      {% pattern buttons/btn-link %}
     </div>
-  </div>
 
-  <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">All</h2>
-  <div class="grid gutter-2">
-    {% assign random_products=site.products|sample:8 %}
-    {% for product in random_products %}
-      <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
-        {% pattern cards/product-card data=product %}
-      </div>
-    {% endfor %}
-  </div>
+    <h2 class="push-0 pad-t-2 island-1-4 gutter-2 exa">All</h2>
+    <div class="grid gutter-2">
+      {% assign random_products=site.products|sample:8 %}
+      {% for product in random_products %}
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ] island-1-4">
+          {% pattern cards/product-card data=product %}
+        </div>
+      {% endfor %}
+    </div>
+  </article>
 
   <div class="pad-t-2">
     {% pattern navigation/next-page %}
