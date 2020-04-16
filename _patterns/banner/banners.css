@@ -19,17 +19,22 @@ h1 {
 
 @media only screen and (min-width: 20em) {
 
-  .container {
-    margin-top: 60px;
+  .banner-content h1 {
+    font-size: 1.7em;
   }
 
-  .container-2 {
-    margin-top: 60px;
+  .banner-content p {
+    font-size: .7em;
+    margin-bottom: .75em;
+  }
+
+  .container {
+    margin-top: 3.9em;
   }
 
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 23em) {
 
   .banner-content h1 {
     font-size: 3.3em;
@@ -37,12 +42,49 @@ h1 {
 
   .banner-content p {
     font-size: 1em;
-    margin-bottom: .5em;
+    margin-bottom: .75em;
+  }
+
+  .container {
+    margin-top: 3.9em;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-content h1 {
+    font-size: 3em;
+  }
+
+  .banner-content p {
+    font-size: 1em;
+    margin-bottom: .75em;
+  }
+
+  .container {
+    margin-top: 3.8em;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
+
+  .banner-content h1 {
+    font-size: 3.1em;
+  }
+
+  .banner-content p {
+    font-size: 1em;
+  }
+
+  .container {
+    margin-top: 3.7em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
 
   .banner-content h1 {
     font-size: 4em;
@@ -53,23 +95,7 @@ h1 {
   }
 
   .container {
-    margin-top: 18px;
-  }
-
-  .container-2 {
-    margin-top: 18px;
-  }
-
-}
-
-@media only screen and (min-width: 48) {
-
-  .banner-content h1 {
-    font-size: 6em;
-  }
-
-  .banner-content p {
-    font-size: 1em;
+    margin-top: 1em;
   }
 
 }
