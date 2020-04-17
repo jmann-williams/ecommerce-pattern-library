@@ -1,0 +1,15 @@
+title: "Checkout"
+
+patterns:
+  sub-total-list:
+    description: |
+      Allows users to view their total of all items.
+  quantity:
+    description: |
+      Allows users to enter a certain amount of an item. Should be used on the checkout page and the product detail page.
+  mobile-summary:
+    description: |
+      Shows what is in a users "shopping bag" on a mobile device.
+  summary:
+    description: |
+      Shows what is in a users "shopping bag".

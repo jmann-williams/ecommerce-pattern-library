@@ -1,8 +1,20 @@
+title: "Cards"
+description: |
+  The card provides information and clicking on it user can get even more information.
+
 patterns:
   product-card:
     width: 400
     description: |
       The product card is used on the product listing pages to display each available product.
+  collections-card:
+    width: 400
+    description: |
+      The collections card is displayed on most pages to show the current collections available.
+  category-card:
+    width: 400
+    description: |
+      The category card is used on the homepage to display how the socks are categorized.
     fields:
       - name: data
         type: object

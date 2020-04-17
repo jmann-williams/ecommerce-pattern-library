@@ -1,0 +1,13 @@
+title: "Sections"
+description: |
+  The sections provide product information.
+
+patterns:
+  product-description:
+    width: 400
+    description: |
+      Provides infromation on the available colors and materials
+  product-summary:
+    width: 400
+    description: |
+      Provides a brief overview of the product.

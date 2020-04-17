@@ -1,4 +1,16 @@
+title: "Banners"
+description: |
+  Banners are to be placed at the top of every page to let users know their location.
+
 patterns:
+  banner:
+    width: 400
+    description: |
+      The main banner is displayed only on the homepage to update users on what's going on.
+  secondary-banner:
+    width: 400
+    description: |
+      The secondary banner is used at the top of all other pages to let users know their location.
   banner:
     fields:
       - name: heading

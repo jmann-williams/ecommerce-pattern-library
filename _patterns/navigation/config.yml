@@ -1,0 +1,14 @@
+title: "Navigation"
+description: |
+  Navigation allows users to travel throughout pages. These should always go on the product pages.
+
+patterns:
+  breadcrumb-trail:
+    description: |
+      The breadcrumb trail acts as a secondary navigation to let users know the path they took get to the point at where they are at.
+  next-page:
+    description: |
+      Allows users to see that there is more products and travel to the next page.
+  previous-page:
+    description: |
+      Allows users to travel to the previous page.

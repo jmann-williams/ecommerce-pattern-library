@@ -1,0 +1,20 @@
+title: "Forms"
+description: |
+  Forms are used to collect various information of a customer.
+
+patterns:
+  card-info:
+    description: |
+      Allows customer to input their card information to go through a transaction.
+  contact-form:
+    description: |
+      Allows users to contact the business if there are any questions.
+  shipping:
+    description: |
+      Allows customer to input their shipping and delivert information to go through a transaction.
+  size-selection:
+    description: |
+      Allows users to select their desired size.
+  newsletter:
+    description: |
+      Allows users enter their email information to sign up for a newsletter to hear about deals and other offers.

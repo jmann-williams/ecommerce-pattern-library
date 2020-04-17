@@ -4,6 +4,30 @@ description: |
 
 patterns:
   basic:
+    description: |
+      This is the main button that is used throughout the website.
+  btn-link:
+    description: |
+      The link button is to be used as an indicatior of going to another page.
+  link-btn:
+    description: |
+      The link button is to be used as an indicatior of going to another page.
+  ghost:
+    description: |
+      The button is to be used of there is anywhere where the background is is very light or completely white.
+  ghost-fill:
+    description: |
+      The button is to be used of there is anywhere where the background is is very dark or  completely black.
+  light:
+    description: |
+      The button is to be used of there is anywhere where the background is very dark or completely black.
+  remove:
+    description: |
+      The button is to remove items from the user's shopping bag.
+  shop:
+    description: |
+      The button is used on the main call to action banner on the home page.
+  basic:
     fields:
       - name: text
         type: string
