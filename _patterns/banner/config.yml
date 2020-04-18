@@ -4,23 +4,20 @@ description: |
 
 patterns:
   banner:
-    width: 400
     description: |
       The main banner is displayed only on the homepage to update users on what's going on.
+    fields:
+    - name: 'heading'
+      type: 'string'
+      example: "New Arrivals"
+    - name: 'text'
+      type: 'string'
+      example: "This is some placeholder text!"
+
   secondary-banner:
-    width: 400
     description: |
       The secondary banner is used at the top of all other pages to let users know their location.
-  banner:
     fields:
-      - name: heading
-        type: string
-        example: "New Arrivals"
-        required: false
-      - name: text
-        type: string
-        example: "Placeholder text"
-        required: false
       - name: heading-2
         type: string
-        example: "/products/"
+        example: "Shop"
