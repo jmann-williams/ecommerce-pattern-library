@@ -18,6 +18,6 @@ patterns:
     description: |
       The secondary banner is used at the top of all other pages to let users know their location.
     fields:
-      - name: heading-2
-        type: string
-        example: "Shop"
+    - name: heading-2
+      type: string
+      example: "Shop"
