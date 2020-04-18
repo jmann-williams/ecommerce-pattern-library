@@ -7,32 +7,23 @@ patterns:
     width: 400
     description: |
       The product card is used on the product listing pages to display each available product.
+    fields:
+    - name: data
+      type: object
+      data:
+        source: "site.products[0]"
+        type: Product
+
   collections-card:
     width: 400
     description: |
       The collections card is displayed on most pages to show the current collections available.
+    fields:
+    - name: data
+      type: object
+      example: "/images/summer.jpg"
+
   category-card:
     width: 400
     description: |
       The category card is used on the homepage to display how the socks are categorized.
-    fields:
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
-      - name: category
-        type: string
-        example: "Men's"
-        required: false
-      - name: desc
-        type: string
-        example: "Placeholder text"
-        required: false
-      - name: button-1
-        type: string
-        example: "/products/"
-      - name: collection
-        type: string
-        example: "Summer"
-        required: false

@@ -7,7 +7,20 @@ patterns:
     width: 400
     description: |
       Provides infromation on the available colors and materials
+    fields:
+    - name: 'summary'
+      type: object
+      example: "Product Details"
+    - name: 'colors'
+      type: object
+      example: "This is some placeholder text!"
+    - name: 'materials'
+      type: object
+      example: "This is some placeholder text!"
+
+
   product-summary:
     width: 400
     description: |
       Provides a brief overview of the product.
+    fields:
